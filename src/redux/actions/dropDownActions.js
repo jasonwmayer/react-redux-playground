@@ -16,6 +16,5 @@ export const addUserDropdownOption = (e, data)=>{
 
 // this action sets the current selectct values
 export const setCurrentSelectedValues = (e, data) =>{
-    // debugger
     return{ type: SET_DROPDOWN_VALUES, payload: data.value}
 }

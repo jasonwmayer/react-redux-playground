@@ -10,8 +10,7 @@ const MultiSearchDropdown = (props) => (
     multiple
     search
     selection
-
-
+    
     options={props.options}  // <--- this is the connected options ARRAY this
                             //       needs the structure of: 
                             //      [
@@ -21,8 +20,6 @@ const MultiSearchDropdown = (props) => (
                             //      ]
 
     value={props.selectedValues} //<---- this an array of the values from the option object
-                                // A note here: if you allow a user to `add` items, then 
-                                // those items will appear as strings in this values array
 
     allowAdditions // <--- this allows user to add items and triggers 
                          //the onAddItem function on click of 'enter'
