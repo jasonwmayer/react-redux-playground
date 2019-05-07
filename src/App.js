@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Container from './containers/container';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Container /> 
+       <div>App mounts</div>
       </header>
     </div>
   );
