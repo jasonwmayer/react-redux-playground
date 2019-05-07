@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DNDwrapper from './DNDwrapper';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
        <div>App mounts</div>
+       <DNDwrapper/>
       </header>
     </div>
   );
